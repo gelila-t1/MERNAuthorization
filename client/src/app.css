@@ -1,0 +1,75 @@
+.maindiv{
+    
+ font-family: raleway;
+   
+}
+.formdiv{
+    display: flex;  
+    flex-direction: column;             /* Enable flexbox */
+    /* justify-content:center;  */
+    align-items: center;
+    justify-items: center;
+}
+.sign-up-form{
+    border: 1px solid #beacac;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: column;             /* Enable flexbox */
+    justify-content:center; /* Distribute space */
+    /* align-items: center;  */
+    width: 250px;
+
+}
+input{
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+ 
+    border: 1px solid #beacac;
+    border-radius: 3px;
+}
+button{
+    width: 220px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 5px;
+    background-color: rgb(8, 163, 163);
+    border: 0px solid #beacac;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #191818;
+}
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+.sign-up{
+    color: rgb(8, 163, 163);
+}
+.home-div{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-family: raleway;
+}
+.start{
+    background-color: rgb(8, 163, 163);
+    width: 200px;
+    padding: 15px;
+    margin-top: 15px;
+}
+h3{
+    margin-top: -15px;
+    color: gray;
+}
+h1{
+    font-size: 66px;
+  
+}
